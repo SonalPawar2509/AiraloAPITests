@@ -36,20 +36,20 @@ Before running the tests, ensure the following software is installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/SonalPawar2509/AiraloAPITests.git
-   cd AiraloAPITests
+git clone https://github.com/SonalPawar2509/AiraloAPITests.git
+cd AiraloAPITests
 
 2. Install Dependencies: Maven will automatically handle the dependencies by reading the pom.xml file. Run the following command to download all required dependencies:
 ```bash
-  mvn clean install
+mvn clean install
 
 3. Run Tests Using Maven:
 ```bash
-  mvn test
+mvn test
 
 4. Run Specific Test Class:
 ```bash
- mvn -Dtest=ApiAutomationTest test
+mvn -Dtest=ApiAutomationTest test
 
 
 
